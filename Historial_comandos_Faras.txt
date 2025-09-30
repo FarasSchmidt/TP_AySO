@@ -1,0 +1,59 @@
+apt install bzip2
+sudo apt install bzip2
+sudo apt install guestadittion
+ssh-keygen
+y
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+clear
+mkdir repogit
+cd
+ls
+ls -l
+ls -h
+ls -la
+clear
+cd repogit
+cd ..
+cd $home
+cd home
+ls
+ssh -T git@github.com
+git clone git@github.com:FarasSchmidt/TP_AySO.git
+sudo apt install git
+git clone git@github.com:FarasSchmidt/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep home_url /etc/os-release -i
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+ls -l
+git add .
+git config --global user.email "faras.a.schmidt@gmail.com"
+git config --global user.name "FarasSchmidt"
+git config user.email
+git config user.name
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Faras Schmidt
+División: 315 Turno: Noche
+EOF
+
+cat README.md
+git add README.md
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
